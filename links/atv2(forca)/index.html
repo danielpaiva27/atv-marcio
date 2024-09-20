@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <b>Letra:</b> <input id="input-letras" type="text" maxlength="1" />
+      <button onclick="verificarLetra()">Tentar</button>
+    </p>
+    <p>
+      <b>Resposta:</b> <input id="input-resposta" type="text" />
+      <button onclick="verificarResposta()">Responder</button>
+    </p>
+    <div id="letras-informadas">
+      <p id="caixa-informada"></p>
+      <p id="caixa-errada"></p>
+    </div>
+    <div id="resultado">
+    </div>
+    <img src="../atv2(forca)/imgs/forca.png" id="img-forca">
+    
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
